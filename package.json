@@ -3,16 +3,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
-    "next": "latest",
+    "firebase": "^9.2.0",
+    "next": "12.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.15",
+    "@types/three": "^0.133.1",
     "autoprefixer": "^10.2.6",
+    "framer-motion": "^5.2.0",
     "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^2.2.4",
+    "three": "^0.134.0"
   }
 }
